@@ -25,3 +25,6 @@ echo "Configuring the GCC build environment"
 echo "Configure and install..."
 make -j 4
 make install
+
+echo "Verify Version"
+gcc --version
